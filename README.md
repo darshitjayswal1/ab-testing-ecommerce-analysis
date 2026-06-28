@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 ![Conversion Rate](chart1_conversion_rate.png)
 
@@ -18,21 +18,21 @@
 
 ---
 
-## 🧩 Business Problem
+##  Business Problem
 
 A fashion e-commerce brand noticed that despite steady traffic growth, conversion rates had plateaued at ~3.5% for 6+ months. The product team hypothesised that the current single-image product page lacked the trust signals and engagement hooks needed to convert modern shoppers.
 
 **The solution proposed:** A redesigned product page (Variant B) featuring:
-- 🖼️ Image carousel (multiple product angles)
-- ⭐ Social proof badges ("4,200+ sold this week")
-- ⏱️ Urgency timer ("Only 3 left in stock")
-- 🔒 Trust signals (secure checkout, free returns)
+-  Image carousel (multiple product angles)
+-  Social proof badges ("4,200+ sold this week")
+- ⏱ Urgency timer ("Only 3 left in stock")
+-  Trust signals (secure checkout, free returns)
 
 **The business question:** Does Variant B drive statistically significant improvements in conversion rate and revenue — and is the evidence strong enough to justify a full rollout?
 
 ---
 
-## ❓ Research Questions & Hypotheses
+##  Research Questions & Hypotheses
 
 | # | Research Question | Null Hypothesis (H₀) | Alternative Hypothesis (H₁) | Test Used |
 |---|-------------------|---------------------|------------------------------|-----------|
@@ -43,7 +43,7 @@ A fashion e-commerce brand noticed that despite steady traffic growth, conversio
 
 ---
 
-## 🔬 Experiment Design
+##  Experiment Design
 
 | Parameter | Value |
 |-----------|-------|
@@ -60,7 +60,7 @@ A fashion e-commerce brand noticed that despite steady traffic growth, conversio
 
 ---
 
-## 📈 Results
+##  Results
 
 ### Primary Metric: Conversion Rate
 
@@ -70,15 +70,15 @@ A fashion e-commerce brand noticed that despite steady traffic growth, conversio
 | Variant (B) | 5,000 | 247 | 4.94% | [4.37%, 5.56%] |
 | **Lift** | — | — | **+41.1%** | — |
 
-**Chi-Square Test:** χ² = 12.47 | **p-value = 0.0004** | ✅ Reject H₀
+**Chi-Square Test:** χ² = 12.47 | **p-value = 0.0004** |  Reject H₀
 
 ### Secondary Metrics
 
 | Metric | Control (A) | Variant (B) | Lift | p-value | Result |
 |--------|-------------|-------------|------|---------|--------|
-| Avg Order Value | $75.14 | $85.97 | +14.4% | 0.0422 | ✅ Significant |
-| Time on Page (median) | 45s | 61s | +35.6% | <0.0001 | ✅ Significant |
-| Pages Viewed (avg) | 2.80 | 3.40 | +21.4% | — | 📊 Informational |
+| Avg Order Value | $75.14 | $85.97 | +14.4% | 0.0422 |  Significant |
+| Time on Page (median) | 45s | 61s | +35.6% | <0.0001 |  Significant |
+| Pages Viewed (avg) | 2.80 | 3.40 | +21.4% | — |  Informational |
 
 ### Device Segmentation
 
@@ -88,11 +88,11 @@ A fashion e-commerce brand noticed that despite steady traffic growth, conversio
 | Mobile | 3.8% | 4.9% | +29% |
 | Tablet | 1.8% | 2.3% | +28% |
 
-> ✅ Variant B outperforms Control on **every device type** — no segment reversal detected.
+>  Variant B outperforms Control on **every device type** — no segment reversal detected.
 
 ---
 
-## 💰 Business Impact
+##  Business Impact
 
 Assuming 50,000 monthly visitors and current traffic mix:
 
@@ -106,7 +106,7 @@ Assuming 50,000 monthly visitors and current traffic mix:
 
 ---
 
-## 📋 Statistical Summary
+##  Statistical Summary
 
 All three primary hypotheses were tested at α = 0.05:
 
@@ -116,7 +116,7 @@ All three primary hypotheses were tested at α = 0.05:
 
 ---
 
-## ✅ Recommendation: SHIP VARIANT B
+##  Recommendation: SHIP VARIANT B
 
 The evidence is conclusive across all three dimensions — conversion, revenue, and engagement — and holds across every device segment. There is no statistical basis to withhold rollout.
 
@@ -128,7 +128,7 @@ The evidence is conclusive across all three dimensions — conversion, revenue, 
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Dataset is synthetic, modelled on real e-commerce benchmarks
 - Test does not account for novelty effect (users engage more with anything new)
@@ -137,14 +137,14 @@ The evidence is conclusive across all three dimensions — conversion, revenue, 
 
 ---
 
-## 📁 Files
+##  Files
 
 | File | Description |
 |------|-------------|
 | `AB_Testing_Analysis.ipynb` | Full notebook: data generation, 6 charts, 3 hypothesis tests, projections |
 | `AB_Testing_Dashboard.html` | Standalone interactive dashboard — open in any browser |
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -154,7 +154,7 @@ The evidence is conclusive across all three dimensions — conversion, revenue, 
 | Matplotlib + Seaborn | Static PNG exports |
 | Jupyter Notebook | Analysis environment |
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # Clone the repo
